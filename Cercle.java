@@ -24,6 +24,14 @@ public class Cercle {
 
         public Boolean equals(Cercle c) {
             return p.getX()==x && p.getY()==y;
-        }     
-        
+        }
+
+	public static void main (String []args){
+	 Cercle c=new Cercle(13.14,14.13);
+   	 System.out.println("X: "+c.getX());
+   	 System.out.println("Y: "+c.getY());
+
+	 Cercle c2=new Cercle (1.2,2.1);
+	 System.out.println("X: "+c2.getX());
+	 System.out.println("Y: "+c2.getY());
         }
